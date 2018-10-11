@@ -35,7 +35,7 @@ public class SwaggerConfig {
                 // 自行修改为自己的包路径
                 .apis(SwaggerConfig
                         //.withClassAnnotation(Controller.class)
-                        .basePackage("com.example.demo.com.user.controller,com.example.demo.com.sys.controller")
+                        .basePackage("com.spring.cloud.demo.controller")
                 )
                 .paths(PathSelectors.any())
                 .build();

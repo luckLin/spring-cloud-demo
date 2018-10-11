@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by lvbaolin on 2018/10/11.
  */
-@Api(value="/user", tags="test接口模块")
+@Api(value="/test", tags="test接口模块")
 @RestController
 public class TestController {
 
